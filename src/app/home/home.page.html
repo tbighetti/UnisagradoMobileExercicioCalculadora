@@ -1,0 +1,99 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Calculadora
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <div #divhistorico class="historico">
+    <ion-item #itemhistorico *ngFor="let item of historico" class="ion-text-right">
+      <ion-label>
+        {{item}}
+      </ion-label>
+    </ion-item>
+  </div>
+
+  <div class="numero-em-edicao">
+    {{strNumeroEmEdicao}}
+  </div>
+
+  <div class="botoes">
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-button id="btn-ac" (click)="onClickBtnAC()">AC</ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button id="btn-mais-menos" (click)="onClickBtnInversaoDeSinais()">+/-</ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button id="btn-percentual" (click)="onClickBtnPercentual()">%</ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button id="btn-divisao" (click)="onClickBtnDividir()">/</ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-button id="btn-7" (click)="onClickBtnNumero(7)">7</ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button id="btn-8" (click)="onClickBtnNumero(8)">8</ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button id="btn-9" (click)="onClickBtnNumero(9)">9</ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button id="btn-multiplicacao" (click)="onClickBtnMultiplicar()">x</ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-button id="btn-4" (click)="onClickBtnNumero(4)">4</ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button id="btn-5" (click)="onClickBtnNumero(5)">5</ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button id="btn-6" (click)="onClickBtnNumero(6)">6</ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button id="btn-subtracao" (click)="onClickBtnSubtrair()">-</ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="9">
+          <ion-row>
+            <ion-col>
+              <ion-button id="btn-1" (click)="onClickBtnNumero(1)">1</ion-button>
+            </ion-col>
+            <ion-col>
+              <ion-button id="btn-2" (click)="onClickBtnNumero(2)">2</ion-button>
+            </ion-col>
+            <ion-col>
+              <ion-button id="btn-3" (click)="onClickBtnNumero(3)">3</ion-button>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col>
+              <ion-button id="btn-0" (click)="onClickBtnNumero(0)">0</ion-button>
+            </ion-col>
+            <ion-col>
+              <ion-button id="btn-virgula" (click)="onClickBtnVirgula()">,</ion-button>
+            </ion-col>
+            <ion-col>
+              <ion-button id="btn-igual" (click)="onClickBtnIgual()">=</ion-button>
+            </ion-col>
+          </ion-row>
+        </ion-col>
+        <ion-col>
+          <ion-button id="btn-soma" (click)="onClickBtnSomar()">+</ion-button>
+        </ion-col>
+      </ion-row>
+      
+    </ion-grid>
+  </div>
+</ion-content>

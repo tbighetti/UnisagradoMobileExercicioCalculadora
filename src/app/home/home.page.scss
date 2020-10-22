@@ -1,0 +1,148 @@
+.historico {
+  text-align: right;
+
+  position: relative;
+  top: 0px;
+
+  width: 375px;
+  height: 250px;
+  overflow-y: scroll;
+
+  background-color: #000;
+
+  font-family: 'RobotoCondensed';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+.numero-em-edicao {
+  position: relative;
+
+  width: 375px;
+  height: 80px;
+
+  text-align: right;
+  vertical-align: middle;;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 2px;
+  
+  font-family: 'RobotoCondensed';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  
+  color: #FFFFFF;
+  background-color: #3F5C76;
+}
+
+.botoes {
+  position: relative;
+
+  width: 375px;
+
+  ion-col {
+    padding: 0px;
+  }
+
+  ion-button {
+    width: 84px;
+    height: 77px;
+    margin: 2px;
+
+    font-family: RobotoCondensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+
+    --color: #FFFFFF;
+
+    border-radius: 2px;
+  }
+}
+
+#btn-ac {
+  --background: rgba(249, 91, 167, 0.3);
+}
+
+#btn-mais-menos {
+  --background: rgba(255, 254, 254, 0.3);
+}
+
+#btn-percentual {
+  --background: rgba(255, 254, 254, 0.3);
+}
+
+#btn-divisao {
+  --background: rgba(255, 254, 254, 0.3);
+}
+
+#btn-7 {
+  --background: rgba(196, 196, 196, 0.3);
+}
+
+#btn-8 {
+  --background: rgba(196, 196, 196, 0.3);
+}
+
+#btn-9 {
+  --background: rgba(196, 196, 196, 0.3);
+}
+
+#btn-multiplicacao {
+  --background: rgba(255, 254, 254, 0.3);
+}
+
+#btn-4 {
+  --background: rgba(196, 196, 196, 0.3);
+}
+
+#btn-5 {
+  --background: rgba(196, 196, 196, 0.3);
+}
+
+#btn-6 {
+  --background: rgba(196, 196, 196, 0.3);
+}
+
+#btn-subtracao {
+  --background: rgba(255, 254, 254, 0.3);
+}
+
+#btn-1 {
+  --background: rgba(196, 196, 196, 0.3);
+}
+
+#btn-2 {
+  --background: rgba(196, 196, 196, 0.3);
+}
+
+#btn-3 {
+  --background: rgba(196, 196, 196, 0.3);
+}
+
+#btn-0 {
+  --background: rgba(196, 196, 196, 0.3);
+}
+
+#btn-virgula {
+  --background: rgba(196, 196, 196, 0.3);
+}
+
+#btn-igual {
+  --background: rgba(196, 196, 196, 0.3);
+}
+
+#btn-soma {
+  --background: rgba(249, 91, 167, 0.7);
+  height: 158px;
+}
+
+
+@font-face {
+  font-family: RobotoCondensed;
+  src: url("/assets/fonts/RobotoCondensed-Regular.ttf");
+}
