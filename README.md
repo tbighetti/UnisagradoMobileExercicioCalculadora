@@ -6,6 +6,7 @@
 - Getúlio Alves
 - Enrico Sanchez
 
+### Executando o programa
 ```
 git clone https://github.com/tbighetti/UnisagradoMobileExercicioCalculadora.git
 cd UnisagradoMobileExercicioCalculadora
