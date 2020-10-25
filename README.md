@@ -1,4 +1,4 @@
-# Cotação
+# Calculadora
 ## Desenvolvimento Mobile - Exercício 4
 ### Unisagrado - Engenharia de Software
 ### Alunos
